@@ -1,0 +1,12 @@
+@import 'settings';
+@import 'foundation';
+@include foundation-everything;
+
+@import 'colors';
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=latin,latin-ext);
+
+h1{
+  color:red;
+  font-size:20px;
+}

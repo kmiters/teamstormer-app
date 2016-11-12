@@ -1,0 +1,9 @@
+<!--#include file="includes/header.html" -->
+
+</head>
+
+<div class="row">
+  <h1>Hello world</h1>
+</div>
+
+<!--#include file="includes/footer.html" -->
