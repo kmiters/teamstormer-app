@@ -1,0 +1,18 @@
+body{
+  height:100%;
+  background-color: $alfa;
+  font-size:15px;
+  color:$beta;
+}
+
+div.expanded{
+  padding-left:rem-calc(10px);
+  padding-right:rem-calc(10px);
+}
+
+h1{
+  font-weight:300;
+  font-size: rem-calc(40px);
+  color: $beta;
+  margin-top:rem-calc(60px);
+}

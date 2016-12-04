@@ -1,0 +1,33 @@
+<div class="admin__info">
+Media query:
+</div>
+
+<div class="expanded row topBar">
+
+  <div class="large-8 columns">
+    <a href="#" class="topBar__logo">
+      <img src="img/teamstormer-logo.svg" alt="">
+      Team Stormer
+    </a>
+
+    <div class="topBar__organisation">
+      Organisation:
+      <select>
+        <option value="invinsys">Invinsys</option>
+        <option value="eminus">Eminus</option>
+        <option value="elpassion">EL Passion</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="large-4 columns text-right">
+    <a href="#" class="topBar__user">
+      <img src="img/avatar.png" alt="">
+      pkmita@invinsys.com
+      </a>
+    <a href="#" class="topBar__logout">
+      Logout
+    </a>
+  </div>
+
+</div>

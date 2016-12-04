@@ -1,0 +1,68 @@
+.topBar{
+  background-color: $eta;
+  height:rem-calc(70px);
+  box-shadow: 0 2px 15px 0 rgba(12,23,54,0.05);
+  line-height: rem-calc(70px);
+  font-size: rem-calc(14px);
+
+  a{
+    color:$beta;
+    &:hover{
+      color:$gamma;
+    }
+  }
+
+  select{
+    border:0;
+    font-size:rem-calc(15px);
+    color:$beta;
+  }
+}
+
+.topBar__logo, .topBar__organisation{
+  display:inline-block;
+}
+
+.topBar__logo{
+  font-weight: 500;
+  img{
+    margin-right:rem-calc(10px);
+  }
+}
+
+.topBar__organisation{
+  select{
+    width:auto;
+    // border:1px solid $delta;
+    // border-radius:4px;
+  }
+}
+
+.topBar__logout{
+
+}
+
+.topBar__user{
+  display: inline-block;
+  img{
+    margin-right:rem-calc(10px);
+  }
+}
+
+.topBar__logo, .topBar__user{
+  padding-right:rem-calc(20px);
+  position:relative;
+  &:after{
+    content:'';
+    width:1px;
+    height:20px;
+    background-color:$delta;
+    position: absolute;
+    right:1px;
+    top:rem-calc(25px);
+  }
+}
+
+.topBar__organisation, .topBar__logout{
+  padding-left:rem-calc(20px);
+}
