@@ -1,0 +1,80 @@
+<!--#include file="includes/_header.shtml" -->
+
+</head>
+
+<body class="body-help">
+<!--#include file="includes/_topBar.shtml" -->
+
+<div class="row">
+  <div class="large-12 columns">
+    <h1>Help</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="form__container">
+
+    <h3>Section one</h3>
+
+    <ul class="vertical menu" data-accordion-menu>
+      <li class="help__header">
+        <a href="#">First question what will happen with my life</a>
+        <ul class="menu vertical nested">
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in augue bibendum, elementum est quis, iaculis massa. Duis scelerisque blandit odio ac viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed auctor dui. Donec euismod justo urna, facilisis porta massa porta vitae. Nam viverra ullamcorper diam sed elementum. Sed sollicitudin lorem eu eros euismod, et malesuada turpis ultricies. Curabitur quis varius sem. Sed pellentesque arcu mi, et luctus mi commodo ac. Phasellus lobortis, nunc vel rhoncus semper, nulla sapien tincidunt tellus, vel egestas eros ex vitae tellus.
+          </li>
+        </ul>
+      </li>
+
+      <li class="help__header">
+        <a href="#">Second question for example how to create new account</a>
+        <ul class="menu vertical nested">
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in augue bibendum, elementum est quis, iaculis massa. Duis scelerisque blandit odio ac viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed auctor dui. Donec euismod justo urna, facilisis porta massa porta vitae. Nam viverra ullamcorper diam sed elementum. Sed sollicitudin lorem eu eros euismod, et malesuada turpis ultricies. Curabitur quis varius sem. Sed pellentesque arcu mi, et luctus mi commodo ac. Phasellus lobortis, nunc vel rhoncus semper, nulla sapien tincidunt tellus, vel egestas eros ex vitae tellus.
+          </li>
+        </ul>
+      </li>
+
+      <li class="help__header">
+        <a href="#">Third question - lorem ipsum sir dolor at atmet</a>
+        <ul class="menu vertical nested">
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in augue bibendum, elementum est quis, iaculis massa. Duis scelerisque blandit odio ac viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed auctor dui. Donec euismod justo urna, facilisis porta massa porta vitae. Nam viverra ullamcorper diam sed elementum. Sed sollicitudin lorem eu eros euismod, et malesuada turpis ultricies. Curabitur quis varius sem. Sed pellentesque arcu mi, et luctus mi commodo ac. Phasellus lobortis, nunc vel rhoncus semper, nulla sapien tincidunt tellus, vel egestas eros ex vitae tellus.
+          </li>
+        </ul>
+      </li>
+
+      <h3>Section two</h3>
+
+      <li class="help__header">
+        <a href="#">First question what will happen with my life</a>
+        <ul class="menu vertical nested">
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in augue bibendum, elementum est quis, iaculis massa. Duis scelerisque blandit odio ac viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed auctor dui. Donec euismod justo urna, facilisis porta massa porta vitae. Nam viverra ullamcorper diam sed elementum. Sed sollicitudin lorem eu eros euismod, et malesuada turpis ultricies. Curabitur quis varius sem. Sed pellentesque arcu mi, et luctus mi commodo ac. Phasellus lobortis, nunc vel rhoncus semper, nulla sapien tincidunt tellus, vel egestas eros ex vitae tellus.
+          </li>
+        </ul>
+      </li>
+
+      <li class="help__header">
+        <a href="#">Second question for example how to create new account</a>
+        <ul class="menu vertical nested">
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in augue bibendum, elementum est quis, iaculis massa. Duis scelerisque blandit odio ac viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed auctor dui. Donec euismod justo urna, facilisis porta massa porta vitae. Nam viverra ullamcorper diam sed elementum. Sed sollicitudin lorem eu eros euismod, et malesuada turpis ultricies. Curabitur quis varius sem. Sed pellentesque arcu mi, et luctus mi commodo ac. Phasellus lobortis, nunc vel rhoncus semper, nulla sapien tincidunt tellus, vel egestas eros ex vitae tellus.
+          </li>
+        </ul>
+      </li>
+
+      <li class="help__header">
+        <a href="#">Third question - lorem ipsum sir dolor at atmet</a>
+        <ul class="menu vertical nested">
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in augue bibendum, elementum est quis, iaculis massa. Duis scelerisque blandit odio ac viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed auctor dui. Donec euismod justo urna, facilisis porta massa porta vitae. Nam viverra ullamcorper diam sed elementum. Sed sollicitudin lorem eu eros euismod, et malesuada turpis ultricies. Curabitur quis varius sem. Sed pellentesque arcu mi, et luctus mi commodo ac. Phasellus lobortis, nunc vel rhoncus semper, nulla sapien tincidunt tellus, vel egestas eros ex vitae tellus.
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<!--#include file="includes/_footer.shtml" -->

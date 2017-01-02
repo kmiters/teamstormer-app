@@ -1,0 +1,25 @@
+<!-- ##########################
+# BILLING INFORMATION - MULTI USER
+########################## -->
+<form action="">
+
+  <fieldset>
+     <label for="userPricingPlan">
+       Actual pricing plan:</label>
+     <input type="text" id="userPricingPlan" class="input__pricing-plan" value="Personal - $49.90">
+     <span class="form__error"></span>
+  </fieldset>
+
+  <span class="billing__valid">
+    Your plan is valid until <span>29 March 2017</span>
+  </span>
+
+  <fieldset>
+     <div class="row formCheckbox__container billing__info">
+       <div class="large-11 columns">
+         If you need to upgrade your pricing plan login into your main account which is <span>account@invinsys.com</span>
+       </div>
+     </div>
+  </fieldset>
+
+</form>

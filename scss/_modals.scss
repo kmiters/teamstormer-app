@@ -1,0 +1,49 @@
+.reveal-overlay{
+  background-color:rgba($beta, 0.8);
+}
+
+.reveal{
+  padding:rem-calc(30px);
+  text-align: center;
+  @extend .shadow;
+  border-radius:6px;
+  h1{
+    margin-top:rem-calc(20px);
+  }
+}
+
+.modalButtons__container{
+  margin-top:rem-calc(30px);
+}
+
+.modalButton{
+  text-align:center;
+  border-radius:4px;
+  padding:rem-calc(10px) rem-calc(10px);
+  text-transform: uppercase;
+  span{
+    display: block;
+    padding:rem-calc(10px) 0;
+    border-radius:4px;
+  }
+}
+
+.modalButton-positive{
+  span{
+    background-color:$epsilon;
+    color:white;
+    &:hover{
+      background-color:darken($epsilon, 0.2);
+    }
+  }
+}
+
+.modalButton-negative{
+  span{
+    color:$beta;
+    background-color:$alfa;
+    &:hover{
+      background-color:darken($alfa, 0.2);
+    }
+  }
+}

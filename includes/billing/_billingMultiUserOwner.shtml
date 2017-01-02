@@ -1,0 +1,84 @@
+<!-- ##########################
+# BILLING INFORMATION - MULTI USER OWNER
+########################## -->
+
+<div class="reveal" id="removeUserModal" data-reveal>
+  <h1>Are you sure?</h1>
+  <p>If you click "YES" this user will not be able to create new sessions. Data from his sessions will still be stored in your organisation.</p>
+  <div class="row modalButtons__container">
+    <div class="small-6 columns modalButton modalButton-positive">
+      <span>Yes</span>
+    </div>
+    <div class="small-6 columns modalButton modalButton-negative">
+      <span>No</span>
+    </div>
+  </div>
+
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+
+<form action="">
+
+  <fieldset>
+     <label for="userPricingPlan">
+       Actual pricing plan:</label>
+     <input type="text" id="userPricingPlan" class="input__pricing-plan" value="Personal - $49.90" disabled>
+     <span class="form__error"></span>
+  </fieldset>
+
+  <span class="billing__valid">
+    Your plan is valid until <span>29 March 2017</span>
+  </span>
+
+  <input type="submit" class="button-submit button-green" value="Update your pricing plan">
+
+  <h3>Meeting Owner Accounts</h3>
+  <p>Your actual plan gives you <span>3</span> possible <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Meeting Owner Accounts are accounts which can create new sessions and invite people to them.">Meeting Owner Accounts</span>. First one is your email address, for rest you can send invitations:</p>
+
+  <fieldset>
+    <div class="row">
+      <div class="small-1 columns text-center">
+        <span class="meetingOwnerNumber">1.</span>
+      </div>
+      <div class="small-11 columns">
+        <input type="text" id="userMeetingOwner" class="input__owner" value="pkmita@invinsys.com" disabled>
+        <span class="form__error"></span>
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset class="meetingOwner">
+    <div class="row">
+      <div class="small-1 columns text-center">
+        <span class="meetingOwnerNumber">2.</span>
+      </div>
+      <div class="small-8 columns">
+        <input type="text" id="userMeetingOwner1" class="input__owner" placeholder="New Meeting Owner's Email Address" value="john.doe@domain.com">
+        <span class="form__error"></span>
+      </div>
+      <div class="small-3 columns text-center">
+        <div class="meetingOwnerButton meetingOwnerButton-remove">Remove</div>
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset class="meetingOwner">
+    <div class="row">
+      <div class="small-1 columns text-center">
+        <span class="meetingOwnerNumber">3.</span>
+      </div>
+      <div class="small-8 columns">
+        <input type="text" id="userMeetingOwner1" class="input__owner" placeholder="New Meeting Owner's Email Address">
+        <span class="form__error"></span>
+      </div>
+      <div class="small-3 columns text-center">
+        <div class="meetingOwnerButton meetingOwnerButton-invite">Invite</div>
+      </div>
+    </div>
+  </fieldset>
+
+
+</form>

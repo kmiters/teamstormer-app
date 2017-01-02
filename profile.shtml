@@ -1,33 +1,101 @@
 <!--#include file="includes/_header.shtml" -->
-
+<script src="js/profile.js"></script>
 </head>
 
+<body class="body-profile">
 <!--#include file="includes/_topBar.shtml" -->
 
-<div class="row">
-  <h1>Your profile</h1>
-</div>
-
-<ul class="tabs" data-tab>
-  <li class="tab-title active"><a href="#panel1">Tab 1</a></li>
-  <li class="tab-title"><a href="#panel2">Tab 2</a></li>
-  <li class="tab-title"><a href="#panel3">Tab 3</a></li>
-  <li class="tab-title"><a href="#panel4">Tab 4</a></li>
-</ul>
-<div class="tabs-content">
-  <div class="content active" id="panel1">
-    <p>This is the first panel of the basic tab example. You can place all sorts of content here including a grid.</p>
-  </div>
-  <div class="content" id="panel2">
-    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
-  </div>
-  <div class="content" id="panel3">
-    <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
-  </div>
-  <div class="content" id="panel4">
-    <p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p>
+<div class="row profile__row">
+  <div class="large-12 columns">
+    <h1>Your profile</h1>
   </div>
 </div>
 
+<div class="row profile__row shadow3">
+
+  <ul class="tabs" data-tabs id="profileTabs">
+    <li class="tabs-title is-active">
+      <a href="#accountDetails" aria-selected="true">Account details</a>
+    </li>
+    <li class="tabs-title">
+      <a href="#billingInformation">Billing information</a>
+    </li>
+  </ul>
+
+  <div class="tabs-content" data-tabs-content="profileTabs">
+    <div class="tabs-panel is-active" id="accountDetails">
+      <!-- ##########################
+      # ACCOUNT DETAILS TAB
+      ########################## -->
+
+      <form action="" method="POST" id="accountDetails-form">
+
+        <fieldset>
+           <label for="userEmail">
+             <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="At the moment you can't change email address on which you registered your account. If you need to please contact us at support@teamstormer.com">
+               <img src="img/ico_info.svg" class="ico-info" alt="At the moment you can't change email address on which you registered your account. If you need to please contact us at support@teamstormer.com">
+             </span>
+             Your email address:</label>
+           <input type="text" id="userEmail" class="input__mail" value="pkmita@invinsys.com" disabled>
+           <span class="form__error">Something is wrong with your email</span>
+        </fieldset>
+
+        <div class="row">
+          <div class="large-6 columns">
+
+            <fieldset>
+               <label for="userName">
+                 Your name:</label>
+               <input type="text" id="userName" class="input__name" value="Piotr Kmita">
+               <span class="form__error"></span>
+            </fieldset>
+
+          </div>
+          <div class="large-6 columns">
+
+            <fieldset>
+               <label>
+                 Your avatar:
+               </label>
+               <div class="input__fake">
+                 <div style="padding-top:10px;height:40px;">
+                  <div style="height:30px;">
+                    <img src="img/avatar.png" alt="">
+                    <a href="#">Upload new avatar</a>
+                  </div>
+
+                </div>
+
+               </div>
+            </fieldset>
+
+          </div>
+        </div>
+
+        <fieldset>
+           <label for="userCountry">
+             Country:</label>
+           <input type="text" id="userName" class="input__name" value="Poland">
+           <span class="form__error"></span>
+        </fieldset>
+
+        <fieldset>
+           <div class="row formCheckbox__container formCheckbox__container-long">
+             <div class="large-1 columns text-center">
+               <input type="checkbox" checked class="formCheckbox__checkbox">
+             </div>
+             <div class="large-11 columns">I agree to recive training and marketing materials about Team Stormer from Invinsys Ltd. </div>
+           </div>
+        </fieldset>
+
+        <input type="submit" class="button-submit button-green" value="Save account details">
+      </form>
+    </div>
+    <div class="tabs-panel" id="billingInformation">
+      <!--#include file="includes/billing/_billingMultiUserOwner.shtml" -->
+    </div>
+  </div>
+
+</div>
 
 <!--#include file="includes/_footer.shtml" -->

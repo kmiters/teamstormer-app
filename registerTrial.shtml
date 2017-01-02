@@ -1,0 +1,63 @@
+<!--#include file="includes/_header.shtml" -->
+<script src="js/vendor/strength.min.js"></script>
+<script src="js/validators.js"></script>
+<script src="js/registerTrial.js"></script>
+</head>
+<body class="body-registerTrial">
+
+   <div class="row">
+      <div class="medium-10 medium-offset-1 large-8 large-offset-2 columns form__head">
+        <div class="row">
+          <div class="large-6 columns">
+            <a href="index.shtml"><img src="img/teamstormer-logo-label.svg" alt=""></a>
+          </div>
+          <div class="large-6 columns text-right">
+            Already have an account? <a href="#">Login!</a>
+          </div>
+        </div>
+      </div>
+   </div>
+
+   <div class="row">
+      <div class="medium-10 medium-offset-1 large-8 large-offset-2 columns form__container trial__container">
+        <h1>Almost there</h1>
+        <h2>We just need few pieces of information to create your trial account.</h2>
+         <form action="">
+
+            <fieldset>
+               <label for="trialEmail">Your email address:</label>
+               <input type="text" id="trialEmail" class="input__mail" value="MailFromLanding@teamstormer.com">
+               <span class="form__error">Something is wrong with your email</span>
+            </fieldset>
+
+            <fieldset>
+               <label for="trialName">Your name:</label>
+               <input type="text" id="trialName" class="">
+               <span class="form__error"></span>
+            </fieldset>
+
+            <fieldset class="cf">
+               <label for="trialPassword">Your password:</label>
+               <input type="password" id="trialPassword" class="input__password">
+               <span class="form__hint"><strong>Hint:</strong> Your password should contain at least one capital letter, one small letter, one number and one special character.</span>
+               <span class="form__error">Password need to be at least 8 letters.</span>
+            </fieldset>
+
+            <fieldset>
+               <label for="trialPasswordRepeat">Repeat your password:</label>
+               <input type="password" id="trialPasswordRepeat" class="input__password">
+               <span class="form__error">Passwords don't match.</span>
+            </fieldset>
+
+            <button class="button-submit">Start my free trial</button>
+         </form>
+      </div>
+   </div>
+
+   <!-- <div class="row">
+      <div class="large-6 large-offset-3 columns text-center login__under">
+         All rights reserved.
+      </div>
+   </div> -->
+
+   <!--#include file="includes/_footer.shtml" -->

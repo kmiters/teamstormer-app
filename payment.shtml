@@ -1,0 +1,151 @@
+<!--#include file="includes/_header.shtml" -->
+<script src="js/validators.js"></script>
+<script src="js/payment.js"></script>
+</head>
+<body class="body-registerTrial">
+
+   <div class="row">
+      <div class="medium-10 medium-offset-1 large-8 large-offset-2 columns form__head">
+        <div class="row">
+          <div class="large-6 columns">
+            <a href="index.shtml"><img src="img/teamstormer-logo-label.svg" alt=""></a>
+          </div>
+          <!-- <div class="large-6 columns text-right">
+            Already have an account? <a href="#">Login!</a>
+          </div> -->
+        </div>
+      </div>
+   </div>
+
+   <div class="row">
+      <div class="medium-10 medium-offset-1 large-8 large-offset-2 columns form__container trial__container">
+        <h1>Payment details</h1>
+        <h2>Please fill those details to perform the payment. At the moment we accept credit cards only.</h2>
+         <form action="" method="POST" id="payment-form">
+           <!-- ##################
+           # FIRST SECTION
+           ################## -->
+            <h3><span>1.</span>Account details</h3>
+            <fieldset>
+               <label for="trialEmail">
+                 <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="This email address has to be the same as address which you used to register a trial account.">
+                   <img src="img/ico_info.svg" class="ico-info" alt="This email address has to be the same as address which you used to register a trial account.">
+                 </span>
+                 Your email address:</label>
+               <input type="text" id="trialEmail" class="input__mail" value="MailFromLanding@teamstormer.com" disabled>
+               <span class="form__error">Something is wrong with your email</span>
+            </fieldset>
+
+            <fieldset>
+               <label for="trialName">Your name:</label>
+               <input type="text" id="trialName" class="" value="Your name from trial">
+               <span class="form__error"></span>
+            </fieldset>
+
+            <fieldset>
+              <label for="pricingPlan">Pricing plan:</label>
+                <div class="select__container">
+                  <select>
+                    <option value="planPersonal">Personal - $19.99</option>
+                    <option value="planTeam">Team - $79.99</option>
+                    <option value="planBusiness">Business - $129.99</option>
+                    <option value="planEnterprise">Enterprise - we will contac you</option>
+                  </select>
+                </div>
+              <span class="form__error"></span>
+            </fieldset>
+            <!-- ##################
+            # SECOND SECTION
+            ################## -->
+            <h3><span>2.</span>Credit card details</h3>
+            <span class="payment-errors form__error"></span>
+            <fieldset>
+               <label for="cardNumber">Your credit card number:</label>
+               <input type="text" id="cardNumber" class="input__creditNumber" data-stripe="number" size="20">
+            </fieldset>
+
+            <div class="row">
+              <div class="medium-4 large-4 columns">
+                <fieldset>
+                  <label for="card__expiryMonth">Expiry Month:</label>
+                    <div class="select__container">
+                      <select name="" id="card__expiryMonth" data-stripe="exp_month">
+                        <option value="01">January</option>
+                        <option value="02">February</option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                      </select>
+                    </div>
+                    <!-- <input type="text" id="card__expiryMonth" size="2" data-stripe="exp_month"> -->
+                </fieldset>
+              </div>
+              <div class="medium-4 large-4 columns">
+                <fieldset>
+                  <label for="card__expiryYear">Expiry Year:</label>
+                  <div class="select__container">
+                    <select name="" id="card__expiryYear" data-stripe="exp_year">
+                      <option value="2017">2017</option>
+                      <option value="2018">2018</option>
+                      <option value="2019">2019</option>
+                      <option value="2020">2020</option>
+                      <option value="2021">2021</option>
+                      <option value="2022">2022</option>
+                      <option value="2023">2023</option>
+                      <option value="2024">2024</option>
+                      <option value="2025">2025</option>
+                      <option value="2026">2026</option>
+                      <option value="2027">2027</option>
+                      <option value="2028">2028</option>
+                      <option value="2029">2029</option>
+                      <option value="2030">2030</option>
+                    </select>
+                  </div>
+                    <!-- <input type="text" id="card__expiryYear" size="2" data-stripe="exp_year"> -->
+                </fieldset>
+              </div>
+              <div class="medium-4 large-4 columns">
+                <fieldset class="card__Cvv">
+                  <label for="card__Cvv">
+                    <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="The CVV Number (Card Verification Value) on your credit card or debit card is a 3 digit number on VISA®, MasterCard® and Discover® branded credit and debit cards. On your American Express® branded credit or debit card it is a 4 digit numeric code.">
+                      <img src="img/ico_info.svg" class="ico-info" alt="The CVV Number (Card Verification Value) on your credit card or debit card is a 3 digit number on VISA®, MasterCard® and Discover® branded credit and debit cards. On your American Express® branded credit or debit card it is a 4 digit numeric code.">
+                    </span>
+                    CVV Code:
+                  </label>
+                    <input type="text" id="card__Cvv" size="4" data-stripe="cvc">
+                </fieldset>
+              </div>
+            </div>
+
+
+            <fieldset>
+               <label for="cardName">Name on the card:</label>
+               <input type="text" id="cardName" class="input__cardName">
+               <span class="form__error"></span>
+            </fieldset>
+
+            <div class="row form__summary">
+              <div class="small-6 medium-6 large-6 columns form__summary-left"><span>3. </span>Summary:</div>
+              <div class="small-6 medium-6 large-6 columns text-right form__summary-right"><span>$</span>49.95<span class="form__summary-month">(per month)</span></div>
+            </div>
+
+            <!-- <a href="#" class="button-submit">Start my free trial</a> -->
+            <input type="submit" class="button-submit" value="Submit">
+         </form>
+      </div>
+   </div>
+
+   <!-- <div class="row">
+      <div class="large-6 large-offset-3 columns text-center login__under">
+         All rights reserved.
+      </div>
+   </div> -->
+
+   <!--#include file="includes/_footer.shtml" -->

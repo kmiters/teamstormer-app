@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="25px" viewBox="0 0 5 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ico more</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="open-project-row" transform="translate(-905.000000, -23.000000)" fill="#212745">
+            <g id="Group">
+                <path d="M897.5,38 C898.880712,38 900,36.8807119 900,35.5 C900,34.1192881 898.880712,33 897.5,33 C896.119288,33 895,34.1192881 895,35.5 C895,36.8807119 896.119288,38 897.5,38 Z M907.5,38 C908.880712,38 910,36.8807119 910,35.5 C910,34.1192881 908.880712,33 907.5,33 C906.119288,33 905,34.1192881 905,35.5 C905,36.8807119 906.119288,38 907.5,38 Z M917.5,38 C918.880712,38 920,36.8807119 920,35.5 C920,34.1192881 918.880712,33 917.5,33 C916.119288,33 915,34.1192881 915,35.5 C915,36.8807119 916.119288,38 917.5,38 Z" id="ico-more" transform="translate(907.500000, 35.500000) rotate(-270.000000) translate(-907.500000, -35.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

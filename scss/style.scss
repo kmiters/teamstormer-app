@@ -4,9 +4,20 @@
 
 @import 'colors';
 @import 'basics';
+@import 'forms';
+@import 'modals';
 
 @import 'topBar';
 @import 'footer';
+@import 'lastProjects';
+@import 'respMenu';
+@import 'pagination';
+
+@import 'index';
+@import 'openProject';
+@import 'login';
+@import 'profile';
+@import 'help';
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=latin,latin-ext);
 
@@ -15,4 +26,5 @@
   bottom:0;right:0;
   background-color: red;
   color:white;
+  z-index:999;
 }

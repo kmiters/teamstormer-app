@@ -1,0 +1,28 @@
+<!-- ##########################
+# BILLING INFORMATION - SINGLE USER
+########################## -->
+<form action="">
+
+  <fieldset>
+     <label for="userPricingPlan">
+       Actual pricing plan:</label>
+     <input type="text" id="userPricingPlan" class="input__pricing-plan" value="Personal - $49.90">
+     <span class="form__error"></span>
+  </fieldset>
+
+  <span class="billing__valid">
+    Your plan is valid until <span>29 March 2017</span>
+  </span>
+
+  <input type="submit" class="button-submit button-green" value="Update your pricing plan">
+
+  <fieldset>
+     <div class="row formCheckbox__container">
+       <div class="large-1 columns text-center">
+         <input type="checkbox" checked class="formCheckbox__checkbox">
+       </div>
+       <div class="large-11 columns">I want to renew my plan each month automatically.</div>
+     </div>
+  </fieldset>
+
+</form>

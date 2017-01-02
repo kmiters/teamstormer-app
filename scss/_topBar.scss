@@ -1,11 +1,42 @@
+.topBarTrial__container{
+  background-color: $beta;
+  height:rem-calc(50px);
+  color:white;
+  font-size:rem-calc(14px);
+  line-height:rem-calc(50px);
+  span{
+    color:$gamma;
+    font-weight: 500;
+  }
+  a{
+    border:1px solid $epsilon;
+    color:$epsilon;
+    border-radius:4px;
+    padding: rem-calc(5px) rem-calc(10px);
+    margin-left:15px;
+    &:hover{
+      color:white;
+      background-color:$epsilon;
+      text-decoration: none;
+    }
+  }
+  @include breakpoint(small down) {
+    height:auto;
+    line-height: rem-calc(30px);
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+}
+
 .topBar{
   background-color: $eta;
   height:rem-calc(70px);
-  box-shadow: 0 2px 15px 0 rgba(12,23,54,0.05);
   line-height: rem-calc(70px);
   font-size: rem-calc(14px);
-
+  z-index: 2;
+  @extend .shadow3;
   a{
+    font-size:rem-calc(14px);
     color:$beta;
     &:hover{
       color:$gamma;
@@ -28,41 +59,156 @@
   img{
     margin-right:rem-calc(10px);
   }
+  font-size:rem-calc(16px);
 }
 
 .topBar__organisation{
+  position: relative;
   select{
-    width:auto;
+    width:150px;
+    margin-left:rem-calc(10px);
+    padding-left:rem-calc(5px);
+    padding-right:rem-calc(5px);
     // border:1px solid $delta;
     // border-radius:4px;
   }
-}
 
-.topBar__logout{
-
-}
-
-.topBar__user{
-  display: inline-block;
-  img{
-    margin-right:rem-calc(10px);
-  }
-}
-
-.topBar__logo, .topBar__user{
-  padding-right:rem-calc(20px);
-  position:relative;
-  &:after{
+  &:before{
     content:'';
     width:1px;
     height:20px;
     background-color:$delta;
     position: absolute;
-    right:1px;
+    left:-5px;
     top:rem-calc(25px);
   }
 }
 
-.topBar__organisation, .topBar__logout{
+.topBar__logout{
+  margin-left:rem-calc(20px);
+  position: relative;
+  &:before{
+    content:'';
+    width:1px;
+    height:20px;
+    background-color:$delta;
+    position: absolute;
+    left:rem-calc(-3px);
+    top:rem-calc(-1px);
+  }
+}
+
+.topBar__user{
+  display: inline-block;
+  img{
+    margin-right:rem-calc(15px);
+  }
+}
+
+.topBar__logo{
+  padding-right:rem-calc(20px);
+  position:relative;
+  img{
+    height:rem-calc(25px);
+  }
+}
+
+.topBar__organisation{
+  padding-left:rem-calc(25px);
+}
+
+.topBar__logout{
   padding-left:rem-calc(20px);
+}
+
+.topBar__hamburger__container{
+  height:70px;
+}
+/* Hamburger icon */
+
+.topBar__hamburger {
+  margin-top:25px;
+  float: right;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.topBar__hamburger span {
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: $beta;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+
+.topBar__hamburger {
+}
+
+.topBar__hamburger span:nth-child(1) {
+  top: 1px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.topBar__hamburger span:nth-child(2) {
+  top: 9px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.topBar__hamburger span:nth-child(3) {
+  top: 18px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.topBar__hamburger.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -1px;
+  left: 8px;
+}
+
+.topBar__hamburger.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.topBar__hamburger.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 20px;
+  left: 8px;
 }

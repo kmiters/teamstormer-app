@@ -1,0 +1,230 @@
+<!--#include file="includes/_header.shtml" -->
+<script src="js/openProject.js"></script>
+</head>
+
+<body>
+<!--#include file="includes/_topBar.shtml" -->
+
+<div class="row">
+  <div class="large-12 columns">
+    <h1>Open Project</h1>
+
+    <!-- TABLE HEADER START -->
+    <div class="show-for-large openProject__header">
+      <div class="row">
+        <div class="large-5 columns openProject__projectNameHeader">
+          Project name
+        </div>
+        <div class="large-2 columns openProject__startDateHeader">Start date</div>
+        <div class="large-2 columns openProject__evalDateHeader">Evaluation start date</div>
+        <div class="large-2 columns text-center openProject__statusHeader">
+          Status
+        </div>
+        <div class="large-1 columns text-center openProject__more">
+
+        </div>
+      </div>
+    </div>
+    <!-- TABLE HEADER END -->
+
+    <!-- ONE PROJECT START -->
+    <div class="openProject__element shadow">
+      <div class="row">
+        <div class="small-12 medium-12 large-5 text-center large-text-left columns openProject__projectName">
+          <a href="#">Gdzie zrobić zlot GTI w Polsce?</a>
+        </div>
+        <div class="small-6 medium-4 large-2 text-center large-text-left columns openProject__sessionStart">
+          11 Feb 09:00 PM
+          <span class="hide-for-large openProject__sublabels">Session start</span>
+        </div>
+        <div class="small-6 medium-4 large-2 text-center large-text-left columns openProject__evaluationStart">
+          11 Feb 09:00 AM
+          <span class="hide-for-large openProject__sublabels">Evaluation start</span>
+        </div>
+        <div class="small-6 small-text-center medium-2 medium-text-center large-2 columns text-center openProject__sessionStatus">
+          <span class="sessionStatus__active">Active now</span>
+        </div>
+        <div class="small-6 small-text-center medium-2 medium-text-center large-1 columns text-center openProject__more">
+          <img src="img/ico_more.svg" alt="" class="openProject__ico-more">
+          <div class="openProject__tooltip shadow">
+            <ul class="text-right">
+              <li><a href="#">Results</a></li>
+              <li><a href="#">Edit</a></li>
+              <li><a href="#">Delete</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ONE PROJECT END -->
+
+    <!-- ONE PROJECT START -->
+    <div class="openProject__element shadow">
+      <div class="row">
+        <div class="small-12 medium-12 large-5 text-center large-text-left columns openProject__projectName">
+          <a href="#">Gdzie zrobić zlot GTI w Polsce?</a>
+        </div>
+        <div class="small-6 medium-4 large-2 text-center large-text-left columns openProject__sessionStart">
+          11 Feb 09:00 PM
+          <span class="hide-for-large openProject__sublabels">Session start</span>
+        </div>
+        <div class="small-6 medium-4 large-2 text-center large-text-left columns openProject__evaluationStart">
+          11 Feb 09:00 AM
+          <span class="hide-for-large openProject__sublabels">Evaluation start</span>
+        </div>
+        <div class="small-6 small-text-center medium-2 medium-text-center large-2 columns text-center openProject__sessionStatus">
+          <span class="sessionStatus__evaluation">Evaluation</span>
+        </div>
+        <div class="small-6 small-text-center medium-2 medium-text-center large-1 columns text-center openProject__more">
+          <img src="img/ico_more.svg" alt="" class="openProject__ico-more">
+          <div class="openProject__tooltip shadow">
+            <ul class="text-right">
+              <li><a href="#">Results</a></li>
+              <li><a href="#">Edit</a></li>
+              <li><a href="#">Delete</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ONE PROJECT END -->
+
+    <!-- ONE PROJECT START -->
+    <div class="openProject__element shadow">
+      <div class="row">
+        <div class="small-12 medium-12 large-5 text-center large-text-left columns openProject__projectName">
+          <a href="#">Gdzie zrobić zlot GTI w Polsce?</a>
+        </div>
+        <div class="small-6 medium-4 large-2 text-center large-text-left columns openProject__sessionStart">
+          11 Feb 09:00 PM
+          <span class="hide-for-large openProject__sublabels">Session start</span>
+        </div>
+        <div class="small-6 medium-4 large-2 text-center large-text-left columns openProject__evaluationStart">
+          11 Feb 09:00 AM
+          <span class="hide-for-large openProject__sublabels">Evaluation start</span>
+        </div>
+        <div class="small-6 small-text-center medium-2 medium-text-center large-2 columns text-center openProject__sessionStatus">
+          <span class="sessionStatus__wait">Wait</span>
+        </div>
+        <div class="small-6 small-text-center medium-2 medium-text-center large-1 columns text-center openProject__more">
+          <img src="img/ico_more.svg" alt="" class="openProject__ico-more">
+          <div class="openProject__tooltip shadow">
+            <ul class="text-right">
+              <li><a href="#">Results</a></li>
+              <li><a href="#">Edit</a></li>
+              <li><a href="#">Delete</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ONE PROJECT END -->
+
+    <!-- ONE PROJECT START -->
+    <div class="openProject__element shadow">
+      <div class="row">
+        <div class="small-12 medium-12 large-5 text-center large-text-left columns openProject__projectName">
+          <a href="#">Gdzie zrobić zlot GTI w Polsce?</a>
+        </div>
+        <div class="small-6 medium-4 large-2 text-center large-text-left columns openProject__sessionStart">
+          11 Feb 09:00 PM
+          <span class="hide-for-large openProject__sublabels">Session start</span>
+        </div>
+        <div class="small-6 medium-4 large-2 text-center large-text-left columns openProject__evaluationStart">
+          11 Feb 09:00 AM
+          <span class="hide-for-large openProject__sublabels">Evaluation start</span>
+        </div>
+        <div class="small-6 small-text-center medium-2 medium-text-center large-2 columns text-center openProject__sessionStatus">
+          <span class="sessionStatus__archived">Archived</span>
+        </div>
+        <div class="small-6 small-text-center medium-2 medium-text-center large-1 columns text-center openProject__more">
+          <img src="img/ico_more.svg" alt="" class="openProject__ico-more">
+          <div class="openProject__tooltip shadow">
+            <ul class="text-right">
+              <li><a href="#">Results</a></li>
+              <li><a href="#">Edit</a></li>
+              <li><a href="#">Delete</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ONE PROJECT END -->
+
+    <!-- ONE PROJECT START -->
+    <div class="openProject__element shadow">
+      <div class="row">
+        <div class="small-12 medium-12 large-5 text-center large-text-left columns openProject__projectName">
+          <a href="#">Gdzie zrobić zlot GTI w Polsce?</a>
+        </div>
+        <div class="small-6 medium-4 large-2 text-center large-text-left columns openProject__sessionStart">
+          11 Feb 09:00 PM
+          <span class="hide-for-large openProject__sublabels">Session start</span>
+        </div>
+        <div class="small-6 medium-4 large-2 text-center large-text-left columns openProject__evaluationStart">
+          11 Feb 09:00 AM
+          <span class="hide-for-large openProject__sublabels">Evaluation start</span>
+        </div>
+        <div class="small-6 small-text-center medium-2 medium-text-center large-2 columns text-center openProject__sessionStatus">
+          <span class="sessionStatus__active">Active now</span>
+        </div>
+        <div class="small-6 small-text-center medium-2 medium-text-center large-1 columns text-center openProject__more">
+          <img src="img/ico_more.svg" alt="" class="openProject__ico-more">
+          <div class="openProject__tooltip shadow">
+            <ul class="text-right">
+              <li><a href="#">Results</a></li>
+              <li><a href="#">Edit</a></li>
+              <li><a href="#">Delete</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ONE PROJECT END -->
+
+    <!-- ONE PROJECT START -->
+    <div class="openProject__element shadow">
+      <div class="row">
+        <div class="small-12 medium-12 large-5 text-center large-text-left columns openProject__projectName">
+          <a href="#">Gdzie zrobić zlot GTI w Polsce?</a>
+        </div>
+        <div class="small-6 medium-4 large-2 text-center large-text-left columns openProject__sessionStart">
+          11 Feb 09:00 PM
+          <span class="hide-for-large openProject__sublabels">Session start</span>
+        </div>
+        <div class="small-6 medium-4 large-2 text-center large-text-left columns openProject__evaluationStart">
+          11 Feb 09:00 AM
+          <span class="hide-for-large openProject__sublabels">Evaluation start</span>
+        </div>
+        <div class="small-6 small-text-center medium-2 medium-text-center large-2 columns text-center openProject__sessionStatus">
+          <span class="sessionStatus__active">Active now</span>
+        </div>
+        <div class="small-6 small-text-center medium-2 medium-text-center large-1 columns text-center openProject__more">
+          <img src="img/ico_more.svg" alt="" class="openProject__ico-more">
+          <div class="openProject__tooltip shadow">
+            <ul class="text-right">
+              <li><a href="#">Results</a></li>
+              <li><a href="#">Edit</a></li>
+              <li><a href="#">Delete</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ONE PROJECT END -->
+
+
+
+
+    <!--#include file="includes/_pagination.shtml" -->
+
+  </div>
+</div>
+<!--#include file="includes/_lastProjects.shtml" -->
+<!--#include file="includes/_footer.shtml" -->

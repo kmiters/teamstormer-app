@@ -2,15 +2,48 @@
 Media query:
 </div>
 
+<div class="row expanded topBarTrial__container text-center">
+  <div class="large-12 columns">
+    Your trial account will be valid for next <span>14 days</span>
+    <a href="#">Upgrade now</a>
+  </div>
+</div>
+
+<div class="topBar__respMenu shadow2">
+  <div class="row">
+
+    <div class="small-4 columns">
+      <a href="profile.shtml" class="topBar__user">
+        <img src="img/avatar.png" alt="">
+      </a>
+      <a href="profile.shtml" class="topBar__user">
+      pkmita@invinsys.com
+      </a>
+    </div>
+
+    <div class="small-4 columns">
+      Organisation:
+      <select>
+        <option value="invinsys">Invinsys</option>
+        <option value="eminus">Eminus</option>
+        <option value="elpassion">EL Passion</option>
+      </select>
+    </div>
+
+    <div class="small-4 columns">
+      <a href="login.shtml">Logout</a>
+    </div>
+
+  </div>
+</div>
+
+
 <div class="expanded row topBar">
 
-  <div class="large-8 columns">
-    <a href="#" class="topBar__logo">
-      <img src="img/teamstormer-logo.svg" alt="">
-      Team Stormer
-    </a>
+  <div class="small-8 medium-8 large-8 columns">
+    <a href="index.shtml" class="topBar__logo"><img src="img/teamstormer-logo-label.svg" alt=""></a>
 
-    <div class="topBar__organisation">
+    <div class="show-for-large topBar__organisation">
       Organisation:
       <select>
         <option value="invinsys">Invinsys</option>
@@ -20,14 +53,24 @@ Media query:
     </div>
   </div>
 
-  <div class="large-4 columns text-right">
-    <a href="#" class="topBar__user">
+  <div class="small-6 medium-4 large-4 columns show-for-large text-right">
+    <a href="profile.shtml" class="topBar__user">
       <img src="img/avatar.png" alt="">
-      pkmita@invinsys.com
-      </a>
-    <a href="#" class="topBar__logout">
-      Logout
     </a>
+    <a href="profile.shtml" class="topBar__user">
+    pkmita@invinsys.com
+    </a>
+    <a href="login.shtml" class="topBar__logout">Logout</a>
   </div>
+
+  <div class="small-4 medium-4 hide-for-large columns text-right topBar__hamburger__container">
+    <div class="topBar__hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+
 
 </div>

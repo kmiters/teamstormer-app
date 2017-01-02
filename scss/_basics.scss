@@ -15,4 +15,84 @@ h1{
   font-size: rem-calc(40px);
   color: $beta;
   margin-top:rem-calc(60px);
+  margin-bottom:rem-calc(30px);
+}
+
+a{
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+// ##################################################
+// ##### SHADOWS
+// ##################################################
+
+.shadow{
+  box-shadow: 0 2px 15px 0 rgba(12,23,54,0.05);
+  transition: box-shadow 1s ease;
+
+  &:hover{
+    @extend .shadow2;
+    z-index: 1;
+  }
+}
+.shadow2{
+  transition: box-shadow 1s ease;
+  box-shadow: 0 20px 35px 0 rgba(12,23,54,0.08);
+}
+
+.shadow3{
+  box-shadow: 0 2px 15px 0 rgba(12,23,54,0.05);
+}
+
+// ##################################################
+// ##### SHOW HIDE CLASSES
+// ##################################################
+
+.show{
+  opacity:1;
+}
+
+.hide{
+  opacity:0;
+}
+
+.display-block{
+  display:block !important;
+}
+
+.display-none{
+  display: none !important;
+}
+
+// ##################################################
+// ##### CLEARFIX
+// ##################################################
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }

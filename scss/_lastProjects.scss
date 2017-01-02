@@ -1,0 +1,159 @@
+section.lastProjects{
+  position:fixed;
+  bottom:-20px;
+
+  width:100%;
+  cursor:pointer;
+  &:before{
+    content:'';
+    width:100%;
+    height:50px;
+    position: absolute;
+    top:-20px;
+    background:linear-gradient(to top, $alfa, rgba(white, 0));
+    z-index: -1;
+  }
+}
+
+section.lastProjects-show{
+  bottom:0;
+  div.lastProjects__container{
+    height:rem-calc(250px);
+  }
+}
+
+.lastProjects__header{
+  font-size:rem-calc(15px);
+  color:$beta;
+  text-align: center;
+  display: block;
+  margin-bottom:5px;
+  z-index: 1;
+}
+
+.lastProjects__container{
+  background-color: $beta;
+  height:20px;
+  overflow: hidden;
+  transition: height 0.5s ease;
+  padding:rem-calc(20px);
+  width: 10000px;
+  min-width:100%;
+}
+
+.lastProjects__element{
+  background-color:darken( $beta, 3% );
+  height:100%;
+  width:300px;
+  max-width:300px;
+  float:left;
+  margin-right:20px;
+  transition: background-color 0.3s ease;
+  color:white;
+  padding:20px;
+  border-radius:4px;
+  &:hover{
+    background-color: darken( $beta, 6% );
+  }
+  .element__title{
+    font-size: rem-calc(17px);
+    line-height: rem-calc(24px);
+  }
+
+.element__bottom{
+  font-size: rem-calc(12px);
+	line-height: rem-calc(18px);
+  color:$iota;
+  span{
+    display: block;
+    color:$alfa;
+  }
+}
+
+}
+.lastProjects__element:last-of-type{
+  margin-right: 0;
+}
+
+.element__status{
+	font-size:rem-calc(12px);
+  line-height: rem-calc(15px);
+	margin-top:rem-calc(10px);
+  margin-bottom:rem-calc(10px);
+	padding-left:15px;
+
+	position: relative;
+
+	&:before{
+		content: '';
+		width: 8px;
+		height: 8px;
+		border-radius:25px;
+
+		position: absolute;
+		top: 3px;
+		left: 0;
+
+	}
+}
+
+.element__title{
+  height:rem-calc(50px);
+}
+
+
+.element__active{
+	color: $gamma;
+	animation: blink 1s infinite;
+  -webkit-animation: blink 1s infinite;
+  opacity: 1;
+
+	&:before{
+		background-color: $gamma;
+	}
+}
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-webkit-keyframes blink {
+    0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.element__wait{
+	color: $epsilon;
+	&:before{
+		background-color: $epsilon;
+	}
+}
+
+.element__archived{
+	color: $iota;
+	&:before{
+		background-color: $iota;
+	}
+}
+
+.element__preparations{
+	color: $theta;
+	&:before{
+		background-color: $theta;
+	}
+}
+
+.element__evaluation{
+	color: $kappa;
+	&:before{
+		background-color: $kappa;
+	}
+}
+
+.bottom__avatars{
+  margin-top:rem-calc(20px);
+  img{
+    margin-right:10px;
+  }
+}

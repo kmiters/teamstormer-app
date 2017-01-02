@@ -1,0 +1,94 @@
+<script src="js/lastProjects.js"></script>
+<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="js/vendor/jquery-ui-touch-punch.js"></script>
+
+
+<section class="lastProjects">
+    <p class="lastProjects__header">Tap to see last projects</p>
+    <div class="lastProjects__container">
+
+        <!-- #######################
+        ##### REPLICATED ELEMENT START
+        ####################### -->
+        <div class="lastProjects__element">
+            <div class="element__title">Long example of two lines title or even longer one (...)</div>
+            <div class="element__status element__active">Active now</div>
+            <div class="element__bottom">
+
+                    Created:<span>Today, 13:45 EST</span>
+                    <div class="bottom__avatars">
+                        <img src="img/avatar.png" alt="">
+                        <img src="img/avatar.png" alt="">
+                        <img src="img/avatar.png" alt="">
+                        <img src="img/avatar.png" alt="">
+                        <img src="img/avatar.png" alt="">
+                        <img src="img/avatar.png" alt="">
+                    </div>
+            </div>
+        </div>
+        <!-- #######################
+        ##### REPLICATED ELEMENT END
+        ####################### -->
+
+        <!-- #######################
+        ##### REPLICATED ELEMENT START
+        ####################### -->
+        <div class="lastProjects__element">
+            <div class="element__title">Long example of two lines title</div>
+            <div class="element__status element__evaluation">Evaluation</div>
+            <div class="element__bottom">
+
+                    Created:<span>Today, 13:45 EST</span>
+                    <div class="bottom__avatars">
+                        <img src="img/avatar.png" alt="">
+                        <img src="img/avatar.png" alt="">
+                        <img src="img/avatar.png" alt="">
+                    </div>
+            </div>
+        </div>
+        <!-- #######################
+        ##### REPLICATED ELEMENT END
+        ####################### -->
+
+        <!-- #######################
+        ##### REPLICATED ELEMENT START
+        ####################### -->
+        <div class="lastProjects__element">
+            <div class="element__title">Long example of two lines title</div>
+            <div class="element__status element__archived">Archived</div>
+            <div class="element__bottom">
+
+                    Created:<span>Today, 13:45 EST</span>
+                    <div class="bottom__avatars">
+                        <img src="img/avatar.png" alt="">
+                        <img src="img/avatar.png" alt="">
+                        <img src="img/avatar.png" alt="">
+                    </div>
+            </div>
+        </div>
+        <!-- #######################
+        ##### REPLICATED ELEMENT END
+        ####################### -->
+
+        <!-- #######################
+        ##### REPLICATED ELEMENT START
+        ####################### -->
+        <div class="lastProjects__element">
+            <div class="element__title">Long example of two lines title</div>
+            <div class="element__status element__wait">Wait</div>
+            <div class="element__bottom">
+
+                    Created:<span>Today, 13:45 EST</span>
+                    <div class="bottom__avatars">
+                        <img src="img/avatar.png" alt="">
+                        <img src="img/avatar.png" alt="">
+                        <img src="img/avatar.png" alt="">
+                    </div>
+            </div>
+        </div>
+        <!-- #######################
+        ##### REPLICATED ELEMENT END
+        ####################### -->
+
+    </div>
+</section>

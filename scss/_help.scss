@@ -1,0 +1,28 @@
+.body-help{
+  .form__container{
+    padding-top:rem-calc(30px);
+    padding-bottom:rem-calc(30px);
+  }
+}
+
+.vertical.menu{
+  li.help__header{
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom:1px solid $zeta;
+    a{
+      line-height: rem-calc(70px);
+      padding:0;
+    }
+    li{
+      padding-bottom:rem-calc(30px);
+      font-size:rem-calc(15px);
+    }
+    ul{
+      margin-left:0;
+    }
+  }
+  li.help__header:last-of-type{
+    border-bottom:none;
+  }
+}

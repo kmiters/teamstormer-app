@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="91px" viewBox="0 0 136 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>illu_help</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="5.32024812" cy="5.97394226" rx="5" ry="5"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="20.3202481" cy="5.97394226" r="5"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <circle id="path-5" cx="36.3202481" cy="5.97394226" r="5"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <ellipse id="path-7" cx="66.5802544" cy="34.5" rx="6.5" ry="6.5"></ellipse>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="13" height="13" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <ellipse id="path-9" cx="88.5802544" cy="34.5" rx="6.5" ry="6.5"></ellipse>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="13" height="13" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <ellipse id="path-11" cx="110.580254" cy="34.5" rx="6.5" ry="6.5"></ellipse>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="13" height="13" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-973.000000, -363.000000)">
+            <g id="illu_help" transform="translate(973.000000, 364.000000)">
+                <g transform="translate(0.919746, 0.000000)">
+                    <path d="M41.7668759,78.7258949 C40.1692523,78.883301 38.5393671,78.9645338 36.8840123,78.9645338 C16.5135348,78.9645338 -1.13686838e-13,66.6632204 -1.13686838e-13,51.4887813 C-1.13686838e-13,36.3143423 16.5135348,24.0130289 36.8840123,24.0130289 C57.2544899,24.0130289 73.7680247,36.3143423 73.7680247,51.4887813 C73.7680247,61.2421168 66.9458776,69.8084934 56.6623498,74.6843987 C57.826876,80.2000574 60.0663431,87.3133927 63.9689519,88.2447554 C68.7258059,89.3799847 51.3559752,87.4368551 41.7668759,78.7258949 Z" id="Combined-Shape" stroke="#F34D13" fill="#FFFFFF" transform="translate(36.884012, 56.275899) scale(-1, 1) translate(-36.884012, -56.275899) "></path>
+                    <g id="Group-2" transform="translate(13.760006, 47.026058)" stroke="#535A92" stroke-width="2" fill="#F5F7F9">
+                        <use id="Oval-2" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                        <use id="Oval-2" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                        <use id="Oval-2" mask="url(#mask-6)" xlink:href="#path-5"></use>
+                    </g>
+                    <path d="M94.5075197,67.1799904 C92.5458541,67.3732638 90.5445759,67.4730067 88.5120244,67.4730067 C63.4998365,67.4730067 43.223452,52.3686596 43.223452,33.7365033 C43.223452,15.104347 63.4998365,0 88.5120244,0 C113.524212,0 133.800597,15.104347 133.800597,33.7365033 C133.800597,45.7122785 125.423924,56.230629 112.797145,62.2175804 C114.227025,68.9900624 116.976787,77.7242749 121.768662,78.8678621 C127.609435,80.26177 106.281635,77.87587 94.5075197,67.1799904 Z" id="Combined-Shape" stroke="#535A92" fill="#F5F7F9"></path>
+                    <use id="Oval-2" stroke="#F34D13" mask="url(#mask-8)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-7"></use>
+                    <use id="Oval-2" stroke="#F34D13" mask="url(#mask-10)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-9"></use>
+                    <use id="Oval-2" stroke="#F34D13" mask="url(#mask-12)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-11"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

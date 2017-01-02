@@ -1,0 +1,17 @@
+.topBar__respMenu{
+  background-color:$zeta;
+  width:100%;
+  color:$beta;
+  position: absolute;
+  top:-200px;
+  opacity:0;
+  padding:rem-calc(30px);
+  transition: opacity 0.5s ease;
+  transition: top 0.5s ease;
+  z-index: 0;
+}
+
+.respMenu-show{
+  opacity:1;
+  top:70px;
+}
