@@ -1,0 +1,163 @@
+<!--#include file="includes/_header.shtml" -->
+<script src="js/evaluation.js"></script>
+</head>
+
+<body class="body-session">
+<!--#include file="includes/components/_topBar.shtml" -->
+<!--#include file="includes/modals/_finishEvaluation.shtml" -->
+
+<div class="row">
+  <div class="large-12 columns">
+    <h1>How to find new markets for our product?</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-6 columns session__problem-description">
+    <h5>Problem description</h5>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+  </div>
+  <div class="large-6 columns session__problem-description">
+    <h5>Invited to this session:</h5>
+    <ul class="session__members">
+    <li>
+      <img src="img/avatar.png" alt="">pkmita@invinsys.com
+      </li>
+      <li>
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="">kmita69@gmail.com
+      </li>
+      <li>
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/ritu/128.jpg" alt="">p345@gmail.com
+      </li>
+      <li>
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg" alt="">john.doe@google.com
+      </li>
+      <li>
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/nexy_dre/128.jpg" alt="">example@email.com
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="row evaluation__header">
+  <div class="medium-12 large-6 medium-text-center large-text-left columns">
+    <h3>Session evaluation</h3>
+  </div>
+  <div class="medium-12 large-6 columns session__timer">
+    Time left: <span>4d</span> : <span>23h</span> : <span>4min</span> : <span>45sec</span>
+  </div>
+</div>
+
+<div class="row large-up-2" data-equalizer data-equalize-by-row="true">
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>Pierwszy</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>Czwarty</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>Ostatni pomysł</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>Czwarty</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>Ostatni pomysł</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>Czwarty</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>Ostatni pomysł</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>Czwarty</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+  <div class="column column-block evaluation__container">
+    <div class="evaluation__idea cf">
+      <div class="evaluation__text" data-equalizer-watch>Ostatni pomysł</div>
+      <!--#include file="includes/components/_evaluationRate.shtml" -->
+    </div>
+  </div>
+
+</div>
+
+
+<div class="row sessionIdeas_buttons">
+  <div class="small-12 columns">
+    <div class="sessionIdeas__button sessionIdeas__button-finish" data-open="modalFinishEvaluation">Finish evaluation</div>
+  </div>
+</div>
+
+
+
+
+<!--#include file="includes/_footer.shtml" -->

@@ -54,18 +54,29 @@ a{
   opacity:1;
 }
 
+.op50{
+  opacity:.5;
+}
+
+.op20{
+  opacity:.2;
+}
+
 .hide{
   opacity:0;
 }
 
 .display-block{
-  display:block !important;
+  display: block !important;
 }
 
 .display-none{
   display: none !important;
 }
 
+.display-inline-block{
+  display: inline-block !important;
+}
 // ##################################################
 // ##### CLEARFIX
 // ##################################################

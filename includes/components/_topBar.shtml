@@ -4,41 +4,48 @@ Media query:
 
 <div class="row expanded topBarTrial__container text-center">
   <div class="large-12 columns">
-    Your trial account will be valid for next <span>14 days</span>
-    <a href="#">Upgrade now</a>
+    Your trial will expire in <span>14 days</span>. Upgrade now and get -20% OFF
+    <a href="#">Upgrade</a>
   </div>
 </div>
 
-<div class="topBar__respMenu shadow2">
-  <div class="row">
 
-    <div class="small-4 columns">
-      <a href="profile.shtml" class="topBar__user">
-        <img src="img/avatar.png" alt="">
-      </a>
-      <a href="profile.shtml" class="topBar__user">
-      pkmita@invinsys.com
-      </a>
-    </div>
-
-    <div class="small-4 columns">
-      Organisation:
-      <select>
-        <option value="invinsys">Invinsys</option>
-        <option value="eminus">Eminus</option>
-        <option value="elpassion">EL Passion</option>
-      </select>
-    </div>
-
-    <div class="small-4 columns">
-      <a href="login.shtml">Logout</a>
-    </div>
-
-  </div>
-</div>
 
 
 <div class="expanded row topBar">
+  <div class="topBar__respMenu shadow2">
+    <div class="row">
+
+      <div class="small-6 columns">
+        <a href="profile.shtml" class="topBar__user">
+          <img src="img/avatar.png" alt="">
+        </a>
+        <a href="profile.shtml" class="topBar__user">
+        pkmita@invinsys.com
+        </a>
+      </div>
+
+      <div class="small-6 columns">
+
+        <div class="row collapse">
+          <div class="small-5 columns">Organisation:</div>
+          <div class="small-7 columns">
+            <select class="respMenu__select">
+              <option value="invinsys">Invinsys</option>
+              <option value="eminus">Eminus</option>
+              <option value="elpassion">EL Passion</option>
+            </select>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="small-12 columns">
+        <a href="login.shtml" class="button-submit button-white">Logout</a>
+      </div>
+
+    </div>
+  </div>
 
   <div class="small-8 medium-8 large-8 columns">
     <a href="index.shtml" class="topBar__logo"><img src="img/teamstormer-logo-label.svg" alt=""></a>

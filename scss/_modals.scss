@@ -8,7 +8,28 @@
   @extend .shadow;
   border-radius:6px;
   h1{
+    font-size:rem-calc(40px);
+    font-weight: 300;
     margin-top:rem-calc(20px);
+    margin-bottom:rem-calc(20px);
+    position: relative;
+    &:after{
+      content: '';
+      height: 2px;
+      background-color: $gamma;
+      width: 60px;
+      position: absolute;
+      bottom: -20px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+  p{
+    font-size:rem-calc(18px);
+    font-weight: 300;
+    margin-top:rem-calc(40px);
   }
 }
 

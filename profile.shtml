@@ -1,9 +1,10 @@
 <!--#include file="includes/_header.shtml" -->
+<script src="js/validators.js"></script>
 <script src="js/profile.js"></script>
 </head>
 
 <body class="body-profile">
-<!--#include file="includes/_topBar.shtml" -->
+<!--#include file="includes/components/_topBar.shtml" -->
 
 <div class="row profile__row">
   <div class="large-12 columns">
@@ -97,5 +98,6 @@
   </div>
 
 </div>
+<!--#include file="includes/components/_lastProjects.shtml" -->
 
 <!--#include file="includes/_footer.shtml" -->

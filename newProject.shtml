@@ -1,0 +1,38 @@
+<!--#include file="includes/_header.shtml" -->
+<script src="js/validators.js"></script>
+<script src="js/profile.js"></script>
+</head>
+
+<body class="body-newProject">
+<!--#include file="includes/components/_topBar.shtml" -->
+
+<div class="row">
+  <div class="large-12 columns">
+    <h1>New project</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-12 columns">
+    <div class="large-12 columns newProjectStep__container">
+      <!-- ##############################
+      # STIMULATION IDEAS START
+      ############################## -->
+
+      <div class="newProjectStep__element">
+        <div class="newProjectStep__content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, dui ac ornare pulvinar, lacus ligula feugiat enim, id elementum diam ipsum ac neque. Proin nec justo ut sapien scelerisque interdum vitae sed nibh. Cras in neque ullamcorper, tempus est sed, ornare dolor. Mauris dapibus imperdiet mi, sed mollis arcu lacinia at. Nam pellentesque nunc a tortor euismod, porta accumsan turpis molestie. Phasellus quis congue nunc. Proin eget sem sem. Etiam elementum elit ut interdum tincidunt. Proin et mi eu sem faucibus elementum vel ut mi. Donec tristique odio dignissim urna convallis sollicitudin. Aenean iaculis eu odio sit amet condimentum. Sed vel nunc non metus maximus sagittis vitae at urna. In semper neque vel sollicitudin placerat. In maximus fermentum enim tempor maximus.
+        </div>
+      </div>
+
+
+      <!-- ##############################
+      # STIMULATION IDEAS END
+      ############################## -->
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!--#include file="includes/_footer.shtml" -->

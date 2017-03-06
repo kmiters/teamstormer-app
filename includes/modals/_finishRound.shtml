@@ -1,0 +1,30 @@
+<div class="reveal medium modalPreviousIdeas" id="modalFinishRound" data-reveal>
+
+  <h1>Thanks for your input</h1>
+  <p>You finished this round. Next round will start in:</p>
+
+  <div class="row modalButtons__container">
+    <div class="small-12 columns">
+      <div class="modalPreviousIdeas__timer">
+        <span>4<span>d</span></span> :
+        <span>23<span>h</span></span> :
+        <span>55<span>min</span></span> :
+        <span>10<span>sec</span></span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="sessionIdeas__button modalButton__reopen" data-close="modalFinishRound">I want to change something...</div>
+    </div>
+  </div>
+
+
+
+
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>

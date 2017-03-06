@@ -3,7 +3,7 @@
 </head>
 
 <body class="body-help">
-<!--#include file="includes/_topBar.shtml" -->
+<!--#include file="includes/components/_topBar.shtml" -->
 
 <div class="row">
   <div class="large-12 columns">

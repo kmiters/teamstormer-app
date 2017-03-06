@@ -4,7 +4,7 @@
 
 <body class="body-index">
 
-<!--#include file="includes/_topBar.shtml" -->
+<!--#include file="includes/components/_topBar.shtml" -->
 
 <div class="row">
   <div class="large-12 columns">
@@ -15,7 +15,7 @@
 
 
 <div class="row large-uncollapse bigBlocks__container" data-equalizer>
-  <a href="#">
+  <a href="newProject.shtml">
   <div class="large-4 columns large-uncollapse bigBlock">
     <div class="wrapper shadow" data-equalizer-watch>
     <img src="img/illu_startNewProject.svg" alt="">
@@ -48,6 +48,6 @@
 
 </div>
 
-<!--#include file="includes/_lastProjects.shtml" -->
+<!--#include file="includes/components/_lastProjects.shtml" -->
 
 <!--#include file="includes/_footer.shtml" -->

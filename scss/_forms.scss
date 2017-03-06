@@ -135,11 +135,11 @@ input[disabled]{
 
 select{
   width: 100%;
-  padding-left:0;
-  padding-right:0;
+  padding-left:10px;
+  padding-right:10px;
   appearance:none;
   border:none;
-  background: transparent url("../img/ico_arrow-down.svg") no-repeat 100% center;
+  background: transparent url("../img/ico_arrow-down.svg") no-repeat 90% center;
   height:rem-calc(50px);
   font-weight:500;
 }
@@ -163,6 +163,15 @@ select{
   }
 }
 
+a.button-submit{
+  height: auto;
+  color:white;
+  text-decoration: none;
+  &:hover{
+    color:white;
+  }
+}
+
 .button-green{
   background-color:$epsilon;
   &:hover{
@@ -170,11 +179,26 @@ select{
   }
 }
 
-.form__error{
-  color:$gamma;
+.button-white{
+  background-color:white;
+  color:$beta;
+  &:hover{
+    background-color:$alfa;
+  }
+}
+
+.form__error, .form__success{
   font-size:rem-calc(12px);
   display: none;
   margin-top:rem-calc(10px);
+}
+
+.form__error{
+  color:$gamma;
+}
+
+.form__success{
+  color:$epsilon;
 }
 
 .form__hint{
@@ -261,21 +285,23 @@ input.input-invalid{
   padding-right:10px;
   border-radius:4px;
 }
-.veryweak{
-	background-color: rgba($gamma, 0.1);
-  border-color: $gamma!important;
+.strength_meter{
+  .veryweak{
+  	background-color: rgba($gamma, 0.1);
+    border-color: $gamma!important;
+    color:$gamma!important;
+  }
+  .weak{
+  background-color: #FFB78C;
+  border-color: #FF853C!important;
   color:$gamma!important;
-}
-.weak{
-background-color: #FFB78C;
-border-color: #FF853C!important;
-color:$gamma!important;
-}
-.medium{
-background-color: rgba($kappa, 0.5);
-color:#4b3b2e!important;
-}
-.strong{
-background-color: $epsilon;
-color:white!important;
+  }
+  .medium{
+  background-color: rgba($kappa, 0.5);
+  color:#4b3b2e!important;
+  }
+  .strong{
+  background-color: $epsilon;
+  color:white!important;
+  }
 }

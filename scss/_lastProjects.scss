@@ -59,6 +59,14 @@ section.lastProjects-show{
     font-size: rem-calc(17px);
     line-height: rem-calc(24px);
   }
+  a{
+    display: block;
+    color:white;
+    &:hover{
+      color:white;
+      text-decoration: none;
+    }
+  }
 
 .element__bottom{
   font-size: rem-calc(12px);

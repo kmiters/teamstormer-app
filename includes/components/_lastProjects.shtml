@@ -11,6 +11,7 @@
         ##### REPLICATED ELEMENT START
         ####################### -->
         <div class="lastProjects__element">
+          <a href="session.shtml">
             <div class="element__title">Long example of two lines title or even longer one (...)</div>
             <div class="element__status element__active">Active now</div>
             <div class="element__bottom">
@@ -25,6 +26,7 @@
                         <img src="img/avatar.png" alt="">
                     </div>
             </div>
+            </a>
         </div>
         <!-- #######################
         ##### REPLICATED ELEMENT END
@@ -34,6 +36,7 @@
         ##### REPLICATED ELEMENT START
         ####################### -->
         <div class="lastProjects__element">
+          <a href="session.shtml">
             <div class="element__title">Long example of two lines title</div>
             <div class="element__status element__evaluation">Evaluation</div>
             <div class="element__bottom">
@@ -45,6 +48,7 @@
                         <img src="img/avatar.png" alt="">
                     </div>
             </div>
+          </a>
         </div>
         <!-- #######################
         ##### REPLICATED ELEMENT END
@@ -54,6 +58,7 @@
         ##### REPLICATED ELEMENT START
         ####################### -->
         <div class="lastProjects__element">
+          <a href="session.shtml">
             <div class="element__title">Long example of two lines title</div>
             <div class="element__status element__archived">Archived</div>
             <div class="element__bottom">
@@ -65,6 +70,7 @@
                         <img src="img/avatar.png" alt="">
                     </div>
             </div>
+          </a>
         </div>
         <!-- #######################
         ##### REPLICATED ELEMENT END
@@ -74,6 +80,7 @@
         ##### REPLICATED ELEMENT START
         ####################### -->
         <div class="lastProjects__element">
+          <a href="session.shtml">
             <div class="element__title">Long example of two lines title</div>
             <div class="element__status element__wait">Wait</div>
             <div class="element__bottom">
@@ -85,6 +92,7 @@
                         <img src="img/avatar.png" alt="">
                     </div>
             </div>
+          </a>
         </div>
         <!-- #######################
         ##### REPLICATED ELEMENT END

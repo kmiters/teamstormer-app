@@ -1,0 +1,15 @@
+<!--#include file="includes/_header.shtml" -->
+</head>
+
+<body class="body-session">
+<!--#include file="includes/components/_topBar.shtml" -->
+
+<div class="row">
+  <div class="small-12 columns text-center">
+    <!--#include file="includes/errors/_error.shtml" -->
+  </div>
+</div>
+
+
+
+<!--#include file="includes/_footer.shtml" -->

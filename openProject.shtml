@@ -3,7 +3,7 @@
 </head>
 
 <body>
-<!--#include file="includes/_topBar.shtml" -->
+<!--#include file="includes/components/_topBar.shtml" -->
 
 <div class="row">
   <div class="large-12 columns">
@@ -222,9 +222,9 @@
 
 
 
-    <!--#include file="includes/_pagination.shtml" -->
+    <!--#include file="includes/components/_pagination.shtml" -->
 
   </div>
 </div>
-<!--#include file="includes/_lastProjects.shtml" -->
+<!--#include file="includes/components/_lastProjects.shtml" -->
 <!--#include file="includes/_footer.shtml" -->

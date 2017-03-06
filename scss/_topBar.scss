@@ -4,6 +4,8 @@
   color:white;
   font-size:rem-calc(14px);
   line-height:rem-calc(50px);
+  transition: all 0.5s ease-in-out;
+  position: relative;
   span{
     color:$gamma;
     font-weight: 500;
@@ -28,7 +30,12 @@
   }
 }
 
+.topBarTrial-is-out{
+  margin-top:-150px;
+}
+
 .topBar{
+  position: relative;
   background-color: $eta;
   height:rem-calc(70px);
   line-height: rem-calc(70px);

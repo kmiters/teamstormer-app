@@ -1,0 +1,8 @@
+<div class="reveal large modalPreviousIdeas" id="modalHelp" data-reveal>
+  <h1>Help</h1>
+  <p>How does session work - few things to be written.</p>
+
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>

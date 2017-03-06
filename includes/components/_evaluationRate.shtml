@@ -1,0 +1,22 @@
+<div class="evaluation__rates cf">
+  <div class="evalaution__rateButton evaluation__btn-2">
+    <span>-2</span>
+    Horrible
+  </div>
+  <div class="evalaution__rateButton evaluation__btn-1">
+    <span>-1</span>
+    Bad
+  </div>
+  <div class="evalaution__rateButton evaluation__btn-0">
+    <span>0</span>
+    Neutral
+  </div>
+  <div class="evalaution__rateButton evaluation__btn-1-positive">
+    <span>+1</span>
+    Good
+  </div>
+  <div class="evalaution__rateButton evaluation__btn-2-positive">
+    <span>+2</span>
+    Brilliant
+  </div>
+</div>

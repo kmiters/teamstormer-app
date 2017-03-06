@@ -1,0 +1,77 @@
+.evaluation__header{
+  margin-top:rem-calc(40px);
+  margin-bottom:rem-calc(15px);
+}
+
+.evaluation__container{
+  .evaluation__idea{
+    background-color:white;
+    @extend .shadow3;
+    margin-bottom:rem-calc(30px);
+    border-radius:4px;
+    .evaluation__text{
+      padding:rem-calc(20px);
+    }
+  }
+}
+
+.evaluation__rates{
+  clear:both;
+  height:rem-calc(80px);
+}
+
+.evalaution__rateButton{
+  color:$beta;
+  height:rem-calc(80px);
+  width:20%;
+  float:left;
+  text-align:center;
+  border-top:1px solid $mu;
+  // border-right:1px solid $mu;
+  padding:15px;
+  font-size:rem-calc(13px);
+  text-transform: uppercase;
+  background-color:white;
+  transition: transform .5s ease;
+  font-weight: 300;
+  &:last-of-type{
+    border-right:none;
+  }
+  &:hover{
+    @extend .shadow;
+    // transform:scale(1.1);
+    transition: transform .5s ease;
+    border:none;
+  }
+  span{
+    display:block;
+    font-weight:400;
+    font-size:rem-calc(20px);
+  }
+}
+
+.evaluation__btn-2{
+  background-color:lighten($gamma, 30%);
+  // color:$gamma;
+}
+.evaluation__btn-1{
+  background-color:lighten($gamma, 40%);
+  // color:$gamma;
+}
+.evaluation__btn-2-positive{
+  background-color:lighten($epsilon, 30%);
+  // color:$epsilon;
+}
+.evaluation__btn-1-positive{
+  background-color:lighten($epsilon, 40%);
+  // color:$epsilon;
+}
+
+.evaluation__rateButton-selected{
+  background-color:$beta;
+  color:white;
+}
+
+div.bgTransparent{
+  background:transparent !important;
+}

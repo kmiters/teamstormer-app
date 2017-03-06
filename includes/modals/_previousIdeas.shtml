@@ -1,0 +1,86 @@
+<div class="reveal large modalPreviousIdeas" id="modalPreviousIdeas" data-reveal>
+  <h1>Your previous ideas:</h1>
+  <p>These are the ideas which you entered in previous rounds. You can use them to stimulate your next ideas or not to repeat yourself.</p>
+
+  <div class="row small-up-1 medium-up-2 large-up-3 modelPreviousIdeas__container">
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      First idea.
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Next example idea.
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Last one!
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Next example idea.
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Last one!
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Next example idea.
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Last one!
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Next example idea.
+      </div>
+    </div>
+    <div class="column column-block modalPreviousIdeas__idea__container">
+      <div class="modalPreviousIdeas__idea">
+      Last one!
+      </div>
+    </div>
+  </div>
+
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>

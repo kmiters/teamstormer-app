@@ -56,11 +56,13 @@
         <span class="meetingOwnerNumber">2.</span>
       </div>
       <div class="small-8 columns">
-        <input type="text" id="userMeetingOwner1" class="input__owner" placeholder="New Meeting Owner's Email Address" value="john.doe@domain.com">
+        <input type="text" class="input__owner" placeholder="New Meeting Owner's Email Address" value="john.doe@domain.com">
         <span class="form__error"></span>
+        <span class="form__success"></span>
       </div>
       <div class="small-3 columns text-center">
         <div class="meetingOwnerButton meetingOwnerButton-remove">Remove</div>
+        <div class="meetingOwnerButton meetingOwnerButton-invite display-none">Invite</div>
       </div>
     </div>
   </fieldset>
@@ -71,10 +73,12 @@
         <span class="meetingOwnerNumber">3.</span>
       </div>
       <div class="small-8 columns">
-        <input type="text" id="userMeetingOwner1" class="input__owner" placeholder="New Meeting Owner's Email Address">
+        <input type="text" class="input__owner" placeholder="New Meeting Owner's Email Address">
         <span class="form__error"></span>
+        <span class="form__success"></span>
       </div>
       <div class="small-3 columns text-center">
+        <div class="meetingOwnerButton meetingOwnerButton-remove display-none">Remove</div>
         <div class="meetingOwnerButton meetingOwnerButton-invite">Invite</div>
       </div>
     </div>

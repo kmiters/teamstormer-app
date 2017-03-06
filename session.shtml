@@ -1,18 +1,170 @@
 <!--#include file="includes/_header.shtml" -->
-
+<script src="js/session.js"></script>
 </head>
 
-<body>
-<!--#include file="includes/_topBar.shtml" -->
+<body class="body-session">
+<!--#include file="includes/components/_topBar.shtml" -->
+<!--#include file="includes/modals/_previousIdeas.shtml" -->
+<!--#include file="includes/modals/_help.shtml" -->
+<!--#include file="includes/modals/_finishRound.shtml" -->
+
 <div class="row">
   <div class="large-12 columns">
-    <h1>Session title goes here</h1>
+    <h1>How to find new markets for our product?</h1>
   </div>
 </div>
+
 <div class="row">
-  <div class="large-12 columns">
-    <p>Problem description:</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <div class="large-6 columns session__problem-description">
+    <h5>Problem description</h5>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+  </div>
+  <div class="large-6 columns session__problem-description">
+    <h5>Invited to this session:</h5>
+    <ul class="session__members">
+      <li>
+      <img src="img/avatar.png" alt="">pkmita@invinsys.com
+      </li>
+      <li>
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="">kmita69@gmail.com
+      </li>
+      <li>
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/ritu/128.jpg" alt="">p345@gmail.com
+      </li>
+      <li>
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg" alt="">john.doe@google.com
+      </li>
+      <li>
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/nexy_dre/128.jpg" alt="">example@email.com
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="row stimulation__container">
+  <div class="large-12 columns row">
+
+      <div class="small-4 columns">
+        <h3>Stimulation ideas</h3>
+      </div>
+      <div class="small-4 columns text-center stimulation__control">
+        <!-- BUTTONS FOR NAVIGATION BETWEEN IDEAS -->
+        <div class="row">
+
+          <div class="small-6 columns text-right">
+            <div class="stimulation__controll__btn js-stimulation-prev">Prev</div>
+          </div>
+          <div class="small-6 columns text-left">
+            <div class="stimulation__controll__btn js-stimulation-next">Next</div>
+          </div>
+
+        </div>
+        <!-- BUTTONS FOR NAVIGATION BETWEEN IDEAS -->
+      </div>
+      <div class="small-4 columns text-right">
+        <div class="stimulation__btn">Show stimulation</div>
+      </div>
+      </div>
+
+      <div class="large-12 columns row">
+        <div class="large-12 columns stimulationIdeas__container">
+          <!-- ##############################
+          # STIMULATION IDEAS START
+          ############################## -->
+
+          <div class="stimulationIdea__element">
+            <div class="stimulationIdeas__content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, dui ac ornare pulvinar, lacus ligula feugiat enim, id elementum diam ipsum ac neque. Proin nec justo ut sapien scelerisque interdum vitae sed nibh. Cras in neque ullamcorper, tempus est sed, ornare dolor. Mauris dapibus imperdiet mi, sed mollis arcu lacinia at. Nam pellentesque nunc a tortor euismod, porta accumsan turpis molestie. Phasellus quis congue nunc. Proin eget sem sem. Etiam elementum elit ut interdum tincidunt. Proin et mi eu sem faucibus elementum vel ut mi. Donec tristique odio dignissim urna convallis sollicitudin. Aenean iaculis eu odio sit amet condimentum. Sed vel nunc non metus maximus sagittis vitae at urna. In semper neque vel sollicitudin placerat. In maximus fermentum enim tempor maximus.
+            </div>
+          </div>
+          <div class="stimulationIdea__element">
+            <div class="stimulationIdeas__content">
+              Here is idea number two.
+            </div>
+          </div>
+          <div class="stimulationIdea__element">
+            <div class="stimulationIdeas__content">
+              Cras ut diam viverra, molestie leo quis, tempus ex. In in efficitur leo. Pellentesque mollis at orci vitae varius. Integer semper purus sed orci consectetur, nec gravida felis scelerisque. Cras vitae est nisi. Nam tristique sodales nisi. Curabitur id nisl sed nisl sollicitudin blandit. Etiam posuere fermentum facilisis. Nunc ipsum turpis, consectetur in libero non, interdum condimentum neque. Pellentesque velit odio, sagittis nec tristique mattis, interdum sed nunc. Donec vel ligula nulla.
+            </div>
+          </div>
+          <div class="stimulationIdea__element">
+            <div class="stimulationIdeas__content">
+              What about fourth idea?
+            </div>
+          </div>
+          <div class="stimulationIdea__element">
+            <div class="stimulationIdeas__content">5
+            Vivamus vestibulum sapien non porta semper. Fusce ullamcorper mauris vitae ligula vehicula interdum. Ut sit amet est cursus arcu maximus tempor. Sed placerat ante rhoncus quam placerat, nec luctus sapien rutrum. Donec at fringilla tellus. Nulla porta quam nec ante semper, a feugiat urna pretium.
+          </div>
+          </div>
+          <div class="stimulationIdea__element">
+            <div class="stimulationIdeas__content">6</div>
+          </div>
+          <div class="stimulationIdea__element">
+            <div class="stimulationIdeas__content">6</div>
+          </div>
+          <div class="stimulationIdea__element">
+            <div class="stimulationIdeas__content">6</div>
+          </div>
+          <div class="stimulationIdea__element">
+            <div class="stimulationIdeas__content">last</div>
+          </div>
+
+          <!-- ##############################
+          # STIMULATION IDEAS END
+          ############################## -->
+        </div>
+      </div>
+
+
+</div>
+
+<div class="row session__details">
+
+  <div class="medium-12 large-6 columns session__rounds">
+    <h2>Round <span>4</span> of <span>5</span></h2>
+  </div>
+
+  <div class="medium-12 large-6 columns session__timer">
+    Time left: <span>4d</span> : <span>23h</span> : <span>4min</span> : <span>45sec</span>
+  </div>
+
+</div>
+
+<div class="row sessionIdeas__container">
+  <div class="large-4 columns">
+    <div class="sessionIdeas__element shadow3">
+      <span>First idea:</span>
+      <span class="sessionIdeas__saved display-block">Saved!</span>
+      <textarea placeholder="Place your first idea here. It can be either new idea stimulated by one from ideas above."></textarea>
+    </div>
+  </div>
+  <div class="large-4 columns">
+    <div class="sessionIdeas__element shadow3">
+      <span>Second idea:</span>
+      <span class="sessionIdeas__saved display-block">Saved!</span>
+      <textarea placeholder="Place your second idea here. It can be either new idea stimulated by one from ideas above."></textarea>
+    </div>
+  </div>
+  <div class="large-4 columns">
+    <div class="sessionIdeas__element shadow3">
+      <span class="sessionIdeas__saved">Saved!</span>
+      <span>Third idea:</span>
+      <textarea placeholder="Place your third idea here. It can be either new idea stimulated by one from ideas above."></textarea>
+    </div>
+  </div>
+</div>
+
+
+<div class="row sessionIdeas_buttons">
+  <div class="large-4 columns">
+    <div class="sessionIdeas__button sessionIdeas__button-help" data-open="modalHelp">Help me</div>
+  </div>
+  <div class="large-4 columns">
+    <div class="sessionIdeas__button sessionIdeas__button-previous" data-open="modalPreviousIdeas">My previous ideas</div>
+  </div>
+  <div class="large-4 columns">
+    <div class="sessionIdeas__button sessionIdeas__button-finish" data-open="modalFinishRound">Finish round</div>
   </div>
 </div>
 

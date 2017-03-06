@@ -1,0 +1,95 @@
+<!--#include file="includes/_header.shtml" -->
+<script src="js/session.js"></script>
+</head>
+
+<body class="body-session">
+<!--#include file="includes/components/_topBar.shtml" -->
+<!--#include file="includes/modals/_previousIdeas.shtml" -->
+<!--#include file="includes/modals/_help.shtml" -->
+<!--#include file="includes/modals/_finishRound.shtml" -->
+
+<div class="row">
+  <div class="large-12 columns">
+    <h1>How to find new markets for our product?</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-6 columns session__problem-description">
+    <h5>Problem description</h5>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+  </div>
+  <div class="large-6 columns session__problem-description">
+    <h5>Invited to this session:</h5>
+    <ul class="session__members">
+      <li>
+      <img src="img/avatar.png" alt="">pkmita@invinsys.com
+      </li>
+      <li>
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="">kmita69@gmail.com
+      </li>
+      <li>
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/ritu/128.jpg" alt="">p345@gmail.com
+      </li>
+      <li>
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg" alt="">john.doe@google.com
+      </li>
+      <li>
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/nexy_dre/128.jpg" alt="">example@email.com
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="row session__details">
+
+  <div class="medium-12 large-6 columns session__rounds">
+    <h2>Round <span>4</span> of <span>5</span></h2>
+  </div>
+
+  <div class="medium-12 large-6 columns session__timer">
+    Time left: <span>4d</span> : <span>23h</span> : <span>4min</span> : <span>45sec</span>
+  </div>
+
+</div>
+
+<div class="row sessionIdeas__container">
+  <div class="large-4 columns">
+    <div class="sessionIdeas__element shadow3">
+      <span>First idea:</span>
+      <span class="sessionIdeas__saved display-block">Saved!</span>
+      <textarea placeholder="Place your first idea here. It can be either new idea stimulated by one from ideas above."></textarea>
+    </div>
+  </div>
+  <div class="large-4 columns">
+    <div class="sessionIdeas__element shadow3">
+      <span>Second idea:</span>
+      <span class="sessionIdeas__saved display-block">Saved!</span>
+      <textarea placeholder="Place your second idea here. It can be either new idea stimulated by one from ideas above."></textarea>
+    </div>
+  </div>
+  <div class="large-4 columns">
+    <div class="sessionIdeas__element shadow3">
+      <span class="sessionIdeas__saved">Saved!</span>
+      <span>Third idea:</span>
+      <textarea placeholder="Place your third idea here. It can be either new idea stimulated by one from ideas above."></textarea>
+    </div>
+  </div>
+</div>
+
+
+<div class="row sessionIdeas_buttons">
+  <div class="large-4 columns">
+    <div class="sessionIdeas__button sessionIdeas__button-help" data-open="modalHelp">Help me</div>
+  </div>
+  <div class="large-4 columns">
+    <div class="sessionIdeas__button sessionIdeas__button-previous" data-open="modalPreviousIdeas">My previous ideas</div>
+  </div>
+  <div class="large-4 columns">
+    <div class="sessionIdeas__button sessionIdeas__button-finish" data-open="modalFinishRound">Finish round</div>
+  </div>
+</div>
+
+
+
+<!--#include file="includes/_footer.shtml" -->
